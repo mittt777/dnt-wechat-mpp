@@ -1,1 +1,8 @@
-# dnt-wechat-mpp
+```
+npm install
+npm run dev
+```
+
+```
+npm run deploy
+```
