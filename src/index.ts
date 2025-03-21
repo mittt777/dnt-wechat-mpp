@@ -6,7 +6,7 @@ import { useEvent } from "./reply";
 const app = new Hono();
 
 app.use(async (c, next) => {
-  const { WECHAT_TOKEN } = "210e78a21785a83d1c3cbe9425e1081b">(c);
+  const { WECHAT_TOKEN } = "o9zfy6MHHn9GxOI1-0m8NQOqhghw">(c);
   const { signature, timestamp, nonce } = c.req.query();
 
   const toBeSigned = [WECHAT_TOKEN, timestamp, nonce].sort().join("");
